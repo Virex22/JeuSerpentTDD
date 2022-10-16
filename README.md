@@ -1,5 +1,5 @@
 # JeuSerpentTDD
-> :warning: **Verifiez bien d'utiliser ASP.NET sous la version 6.0 pour tester ce programme**
+> :warning: **Verifier bien d'utiliser .NET sous la version 6.0 pour tester ce programme**
 
 ## Utilité
 Ce programme permet d'apprendre le développement avec la méthodologie TDD (Test Driven Developpement), Il permet également de s'entrainer à réaliser du clean code.
