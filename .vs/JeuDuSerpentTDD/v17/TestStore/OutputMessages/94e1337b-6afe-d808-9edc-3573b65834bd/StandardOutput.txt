@@ -1,0 +1,250 @@
+Combien de joueurs ?
+Nom du joueur 1 ?
+Nom du joueur 2 ?
+Début de la partie
+
+Tour n°1
+c'est à John (case n°0) de jouer
+John lance le dé
+Le dé affiche 1
+John est sur la case 0 et avance vers la case 1
+c'est à Doe (case n°0) de jouer
+Doe lance le dé
+Le dé affiche 5
+Doe est sur la case 0 et avance vers la case 5
+
+Tour n°2
+c'est à John (case n°1) de jouer
+John lance le dé
+Le dé affiche 1
+John est sur la case 1 et avance vers la case 2
+c'est à Doe (case n°5) de jouer
+Doe lance le dé
+Le dé affiche 4
+Doe est sur la case 5 et avance vers la case 9
+
+Tour n°3
+c'est à John (case n°2) de jouer
+John lance le dé
+Le dé affiche 2
+John est sur la case 2 et avance vers la case 4
+c'est à Doe (case n°9) de jouer
+Doe lance le dé
+Le dé affiche 5
+Doe est sur la case 9 et avance vers la case 14
+
+Tour n°4
+c'est à John (case n°4) de jouer
+John lance le dé
+Le dé affiche 1
+John est sur la case 4 et avance vers la case 5
+c'est à Doe (case n°14) de jouer
+Doe lance le dé
+Le dé affiche 1
+Doe est sur la case 14 et avance vers la case 15
+
+Tour n°5
+c'est à John (case n°5) de jouer
+John lance le dé
+Le dé affiche 2
+John est sur la case 5 et avance vers la case 7
+c'est à Doe (case n°15) de jouer
+Doe lance le dé
+Le dé affiche 4
+Doe est sur la case 15 et avance vers la case 19
+
+Tour n°6
+c'est à John (case n°7) de jouer
+John lance le dé
+Le dé affiche 4
+John est sur la case 7 et avance vers la case 11
+c'est à Doe (case n°19) de jouer
+Doe lance le dé
+Le dé affiche 2
+Doe est sur la case 19 et avance vers la case 21
+
+Tour n°7
+c'est à John (case n°11) de jouer
+John lance le dé
+Le dé affiche 4
+John est sur la case 11 et avance vers la case 15
+c'est à Doe (case n°21) de jouer
+Doe lance le dé
+Le dé affiche 2
+Doe est sur la case 21 et avance vers la case 23
+
+Tour n°8
+c'est à John (case n°15) de jouer
+John lance le dé
+Le dé affiche 5
+John est sur la case 15 et avance vers la case 20
+John est sur un multiple de 10 (20), il rejoue
+John lance le dé
+Le dé affiche 4
+John est sur la case 20 et avance vers la case 24
+c'est à Doe (case n°23) de jouer
+Doe lance le dé
+Le dé affiche 3
+Doe est sur la case 23 et avance vers la case 26
+
+Tour n°9
+c'est à John (case n°24) de jouer
+John lance le dé
+Le dé affiche 1
+John est sur la case 24 et avance vers la case 25
+c'est à Doe (case n°26) de jouer
+Doe lance le dé
+Le dé affiche 2
+Doe est sur la case 26 et avance vers la case 28
+
+Tour n°10
+c'est à John (case n°25) de jouer
+John lance le dé
+Le dé affiche 2
+John est sur la case 25 et avance vers la case 27
+c'est à Doe (case n°28) de jouer
+Doe lance le dé
+Le dé affiche 5
+Doe est sur la case 28 et avance vers la case 33
+
+Tour n°11
+c'est à John (case n°27) de jouer
+John lance le dé
+Le dé affiche 6
+John est sur la case 27 et avance vers la case 33
+c'est à Doe (case n°33) de jouer
+Doe lance le dé
+Le dé affiche 5
+Doe est sur la case 33 et avance vers la case 38
+
+Tour n°12
+c'est à John (case n°33) de jouer
+John lance le dé
+Le dé affiche 6
+John est sur la case 33 et avance vers la case 39
+c'est à Doe (case n°38) de jouer
+Doe lance le dé
+Le dé affiche 4
+Doe est sur la case 38 et avance vers la case 42
+
+Tour n°13
+c'est à John (case n°39) de jouer
+John lance le dé
+Le dé affiche 6
+John est sur la case 39 et avance vers la case 45
+c'est à Doe (case n°42) de jouer
+Doe lance le dé
+Le dé affiche 6
+Doe est sur la case 42 et avance vers la case 48
+
+Tour n°14
+c'est à John (case n°45) de jouer
+John lance le dé
+Le dé affiche 4
+John est sur la case 45 et avance vers la case 49
+c'est à Doe (case n°48) de jouer
+Doe lance le dé
+Le dé affiche 6
+Doe était sur la case 48 et il veut avancer trop loin, il retourne à la case 25
+
+Tour n°15
+c'est à John (case n°49) de jouer
+John lance le dé
+Le dé affiche 4
+John était sur la case 49 et il veut avancer trop loin, il retourne à la case 25
+c'est à Doe (case n°25) de jouer
+Doe lance le dé
+Le dé affiche 3
+Doe est sur la case 25 et avance vers la case 28
+
+Tour n°16
+c'est à John (case n°25) de jouer
+John lance le dé
+Le dé affiche 5
+John est sur la case 25 et avance vers la case 30
+John est sur un multiple de 10 (30), il rejoue
+John lance le dé
+Le dé affiche 3
+John est sur la case 30 et avance vers la case 33
+c'est à Doe (case n°28) de jouer
+Doe lance le dé
+Le dé affiche 1
+Doe est sur la case 28 et avance vers la case 29
+
+Tour n°17
+c'est à John (case n°33) de jouer
+John lance le dé
+Le dé affiche 1
+John est sur la case 33 et avance vers la case 34
+c'est à Doe (case n°29) de jouer
+Doe lance le dé
+Le dé affiche 4
+Doe est sur la case 29 et avance vers la case 33
+
+Tour n°18
+c'est à John (case n°34) de jouer
+John lance le dé
+Le dé affiche 6
+John est sur la case 34 et avance vers la case 40
+John est sur un multiple de 10 (40), il rejoue
+John lance le dé
+Le dé affiche 3
+John est sur la case 40 et avance vers la case 43
+c'est à Doe (case n°33) de jouer
+Doe lance le dé
+Le dé affiche 2
+Doe est sur la case 33 et avance vers la case 35
+
+Tour n°19
+c'est à John (case n°43) de jouer
+John lance le dé
+Le dé affiche 5
+John est sur la case 43 et avance vers la case 48
+c'est à Doe (case n°35) de jouer
+Doe lance le dé
+Le dé affiche 2
+Doe est sur la case 35 et avance vers la case 37
+
+Tour n°20
+c'est à John (case n°48) de jouer
+John lance le dé
+Le dé affiche 4
+John était sur la case 48 et il veut avancer trop loin, il retourne à la case 25
+c'est à Doe (case n°37) de jouer
+Doe lance le dé
+Le dé affiche 3
+Doe est sur la case 37 et avance vers la case 40
+Doe est sur un multiple de 10 (40), il rejoue
+Doe lance le dé
+Le dé affiche 1
+Doe est sur la case 40 et avance vers la case 41
+
+Tour n°21
+c'est à John (case n°25) de jouer
+John lance le dé
+Le dé affiche 1
+John est sur la case 25 et avance vers la case 26
+c'est à Doe (case n°41) de jouer
+Doe lance le dé
+Le dé affiche 2
+Doe est sur la case 41 et avance vers la case 43
+
+Tour n°22
+c'est à John (case n°26) de jouer
+John lance le dé
+Le dé affiche 6
+John est sur la case 26 et avance vers la case 32
+c'est à Doe (case n°43) de jouer
+Doe lance le dé
+Le dé affiche 3
+Doe est sur la case 43 et avance vers la case 46
+
+Tour n°23
+c'est à John (case n°32) de jouer
+John lance le dé
+Le dé affiche 3
+John est sur la case 32 et avance vers la case 35
+c'est à Doe (case n°46) de jouer
+Doe lance le dé
+Le dé affiche 4
+Doe est sur la case 46 et avance vers la case 50

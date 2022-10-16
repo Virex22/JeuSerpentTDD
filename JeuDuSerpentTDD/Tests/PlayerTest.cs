@@ -10,6 +10,7 @@ namespace JeuDuSerpentTDD.Tests
         public PlayerTest()
         {
             player = new Player("John Doe");
+            player.MaxPosition = 50;
         }
 
         [TestMethod]
@@ -42,9 +43,23 @@ namespace JeuDuSerpentTDD.Tests
         [TestMethod]
         public void UsePlayerRollFunction_ShouldByChangePositionTo25IfGoTo50()
         {
-            player.Position = 50;
+            player.Position = player.MaxPosition;
             player.Roll();
             Assert.AreEqual(25, player.Position);
         }
+
+        [TestMethod]
+        [DataRow(10)]
+        [DataRow(20)]
+        [DataRow(30)]
+        [DataRow(40)]
+        public void UsePlayerRollFunction_ShouldByReRollIfIsOnMultipleOfTen(int position)
+        {
+            player.Position = position - 1;
+            player.handleMove(1);
+            Assert.IsTrue(player.Position > position);
+        }
+
+
     }
 }

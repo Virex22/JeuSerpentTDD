@@ -1,0 +1,247 @@
+Combien de joueurs ?
+Nom du joueur 1 ?
+Nom du joueur 2 ?
+Nom du joueur 3 ?
+Nom du joueur 4 ?
+Nom du joueur 5 ?
+Début de la partie
+
+Tour n°1
+c'est à John (case n°0) de jouer
+John lance le dé
+Le dé affiche 5
+John est sur la case 0 et avance vers la case 5
+c'est à Doe (case n°0) de jouer
+Doe lance le dé
+Le dé affiche 4
+Doe est sur la case 0 et avance vers la case 4
+c'est à Foo (case n°0) de jouer
+Foo lance le dé
+Le dé affiche 4
+Foo est sur la case 0 et avance vers la case 4
+c'est à Test (case n°0) de jouer
+Test lance le dé
+Le dé affiche 6
+Test est sur la case 0 et avance vers la case 6
+c'est à Bar (case n°0) de jouer
+Bar lance le dé
+Le dé affiche 4
+Bar est sur la case 0 et avance vers la case 4
+
+Tour n°2
+c'est à John (case n°5) de jouer
+John lance le dé
+Le dé affiche 4
+John est sur la case 5 et avance vers la case 9
+c'est à Doe (case n°4) de jouer
+Doe lance le dé
+Le dé affiche 4
+Doe est sur la case 4 et avance vers la case 8
+c'est à Foo (case n°4) de jouer
+Foo lance le dé
+Le dé affiche 3
+Foo est sur la case 4 et avance vers la case 7
+c'est à Test (case n°6) de jouer
+Test lance le dé
+Le dé affiche 5
+Test est sur la case 6 et avance vers la case 11
+c'est à Bar (case n°4) de jouer
+Bar lance le dé
+Le dé affiche 2
+Bar est sur la case 4 et avance vers la case 6
+
+Tour n°3
+c'est à John (case n°9) de jouer
+John lance le dé
+Le dé affiche 1
+John est sur la case 9 et avance vers la case 10
+John est sur un multiple de 10 (10), il rejoue
+John lance le dé
+Le dé affiche 3
+John est sur la case 10 et avance vers la case 13
+c'est à Doe (case n°8) de jouer
+Doe lance le dé
+Le dé affiche 4
+Doe est sur la case 8 et avance vers la case 12
+c'est à Foo (case n°7) de jouer
+Foo lance le dé
+Le dé affiche 1
+Foo est sur la case 7 et avance vers la case 8
+c'est à Test (case n°11) de jouer
+Test lance le dé
+Le dé affiche 3
+Test est sur la case 11 et avance vers la case 14
+c'est à Bar (case n°6) de jouer
+Bar lance le dé
+Le dé affiche 1
+Bar est sur la case 6 et avance vers la case 7
+
+Tour n°4
+c'est à John (case n°13) de jouer
+John lance le dé
+Le dé affiche 6
+John est sur la case 13 et avance vers la case 19
+c'est à Doe (case n°12) de jouer
+Doe lance le dé
+Le dé affiche 5
+Doe est sur la case 12 et avance vers la case 17
+c'est à Foo (case n°8) de jouer
+Foo lance le dé
+Le dé affiche 6
+Foo est sur la case 8 et avance vers la case 14
+c'est à Test (case n°14) de jouer
+Test lance le dé
+Le dé affiche 5
+Test est sur la case 14 et avance vers la case 19
+c'est à Bar (case n°7) de jouer
+Bar lance le dé
+Le dé affiche 5
+Bar est sur la case 7 et avance vers la case 12
+
+Tour n°5
+c'est à John (case n°19) de jouer
+John lance le dé
+Le dé affiche 2
+John est sur la case 19 et avance vers la case 21
+c'est à Doe (case n°17) de jouer
+Doe lance le dé
+Le dé affiche 5
+Doe est sur la case 17 et avance vers la case 22
+c'est à Foo (case n°14) de jouer
+Foo lance le dé
+Le dé affiche 2
+Foo est sur la case 14 et avance vers la case 16
+c'est à Test (case n°19) de jouer
+Test lance le dé
+Le dé affiche 6
+Test est sur la case 19 et avance vers la case 25
+c'est à Bar (case n°12) de jouer
+Bar lance le dé
+Le dé affiche 6
+Bar est sur la case 12 et avance vers la case 18
+
+Tour n°6
+c'est à John (case n°21) de jouer
+John lance le dé
+Le dé affiche 3
+John est sur la case 21 et avance vers la case 24
+c'est à Doe (case n°22) de jouer
+Doe lance le dé
+Le dé affiche 4
+Doe est sur la case 22 et avance vers la case 26
+c'est à Foo (case n°16) de jouer
+Foo lance le dé
+Le dé affiche 4
+Foo est sur la case 16 et avance vers la case 20
+Foo est sur un multiple de 10 (20), il rejoue
+Foo lance le dé
+Le dé affiche 4
+Foo est sur la case 20 et avance vers la case 24
+c'est à Test (case n°25) de jouer
+Test lance le dé
+Le dé affiche 3
+Test est sur la case 25 et avance vers la case 28
+c'est à Bar (case n°18) de jouer
+Bar lance le dé
+Le dé affiche 4
+Bar est sur la case 18 et avance vers la case 22
+
+Tour n°7
+c'est à John (case n°24) de jouer
+John lance le dé
+Le dé affiche 6
+John est sur la case 24 et avance vers la case 30
+John est sur un multiple de 10 (30), il rejoue
+John lance le dé
+Le dé affiche 3
+John est sur la case 30 et avance vers la case 33
+c'est à Doe (case n°26) de jouer
+Doe lance le dé
+Le dé affiche 1
+Doe est sur la case 26 et avance vers la case 27
+c'est à Foo (case n°24) de jouer
+Foo lance le dé
+Le dé affiche 5
+Foo est sur la case 24 et avance vers la case 29
+c'est à Test (case n°28) de jouer
+Test lance le dé
+Le dé affiche 2
+Test est sur la case 28 et avance vers la case 30
+Test est sur un multiple de 10 (30), il rejoue
+Test lance le dé
+Le dé affiche 5
+Test est sur la case 30 et avance vers la case 35
+c'est à Bar (case n°22) de jouer
+Bar lance le dé
+Le dé affiche 2
+Bar est sur la case 22 et avance vers la case 24
+
+Tour n°8
+c'est à John (case n°33) de jouer
+John lance le dé
+Le dé affiche 3
+John est sur la case 33 et avance vers la case 36
+c'est à Doe (case n°27) de jouer
+Doe lance le dé
+Le dé affiche 2
+Doe est sur la case 27 et avance vers la case 29
+c'est à Foo (case n°29) de jouer
+Foo lance le dé
+Le dé affiche 6
+Foo est sur la case 29 et avance vers la case 35
+c'est à Test (case n°35) de jouer
+Test lance le dé
+Le dé affiche 6
+Test est sur la case 35 et avance vers la case 41
+c'est à Bar (case n°24) de jouer
+Bar lance le dé
+Le dé affiche 5
+Bar est sur la case 24 et avance vers la case 29
+
+Tour n°9
+c'est à John (case n°36) de jouer
+John lance le dé
+Le dé affiche 4
+John est sur la case 36 et avance vers la case 40
+John est sur un multiple de 10 (40), il rejoue
+John lance le dé
+Le dé affiche 2
+John est sur la case 40 et avance vers la case 42
+c'est à Doe (case n°29) de jouer
+Doe lance le dé
+Le dé affiche 5
+Doe est sur la case 29 et avance vers la case 34
+c'est à Foo (case n°35) de jouer
+Foo lance le dé
+Le dé affiche 2
+Foo est sur la case 35 et avance vers la case 37
+c'est à Test (case n°41) de jouer
+Test lance le dé
+Le dé affiche 4
+Test est sur la case 41 et avance vers la case 45
+c'est à Bar (case n°29) de jouer
+Bar lance le dé
+Le dé affiche 6
+Bar est sur la case 29 et avance vers la case 35
+
+Tour n°10
+c'est à John (case n°42) de jouer
+John lance le dé
+Le dé affiche 2
+John est sur la case 42 et avance vers la case 44
+c'est à Doe (case n°34) de jouer
+Doe lance le dé
+Le dé affiche 6
+Doe est sur la case 34 et avance vers la case 40
+Doe est sur un multiple de 10 (40), il rejoue
+Doe lance le dé
+Le dé affiche 4
+Doe est sur la case 40 et avance vers la case 44
+c'est à Foo (case n°37) de jouer
+Foo lance le dé
+Le dé affiche 4
+Foo est sur la case 37 et avance vers la case 41
+c'est à Test (case n°45) de jouer
+Test lance le dé
+Le dé affiche 5
+Test est sur la case 45 et avance vers la case 50

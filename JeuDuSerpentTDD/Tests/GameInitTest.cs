@@ -6,20 +6,44 @@ namespace JeuDuSerpentTDD.Tests
     [TestClass]
     public class GameInitTest
     {
+        private void WriteToConsole(string command)
+        {
+            var input = new StringReader(command);
+            Console.SetIn(input);
+        }
+
         [TestMethod]
-        [DataRow(1)]
         [DataRow(2)]
-        [DataRow(13)]
         [DataRow(17)]
-        [DataRow(18)]
         [DataRow(27)]
         [DataRow(30)]
-        [DataRow(154)]
         public void UseAskPlayerCountFunction_SouldByReturnTheNumber(int numberOfPlayer)
         {
-            var input = new StringReader($"{numberOfPlayer}");
-            Console.SetIn(input);
-            Assert.AreEqual(numberOfPlayer, GameInit.askPlayerCount());
+            WriteToConsole($"{numberOfPlayer}");
+            
+            Assert.AreEqual(numberOfPlayer, GameInit.AskPlayerCount());
+        }
+
+        [TestMethod]
+        [DataRow(0)]
+        [DataRow(1)]
+        public void UseAskPlayerCountFunction_SouldByThrowArgumentException(int numberOfPlayer)
+        {
+            WriteToConsole($"{numberOfPlayer}");
+            
+            Assert.ThrowsException<UnvalidNumberOfPlayerException>(() => GameInit.AskPlayerCount());
+        }
+
+        [TestMethod]
+        [DataRow(2)]
+        [DataRow(13)]
+        [DataRow(18)]
+        [DataRow(154)]
+        public void UseAskMapLenght_SouldByReturnTheNumber(int mapLenght)
+        {
+            WriteToConsole($"{mapLenght}");
+            
+            Assert.AreEqual(mapLenght, GameInit.AskMapLength());
         }
 
         [TestMethod]
@@ -29,9 +53,9 @@ namespace JeuDuSerpentTDD.Tests
         [DataRow("Test")]
         public void UseAskPlayerNameFunction_SouldByReturnTheName(string name)
         {
-            var input = new StringReader(name);
-            Console.SetIn(input);
-            Assert.AreEqual(name, GameInit.askPlayerName(1));
+            WriteToConsole(name);
+            
+            Assert.AreEqual(name, GameInit.AskPlayerName(1));
         }
 
         [TestMethod]
@@ -41,10 +65,12 @@ namespace JeuDuSerpentTDD.Tests
         [DataRow("10\nJohn\nDoe\nJohn\nPog\nFoo\nTest\nBar\nJimmy\nPaul\nKevin")]
         public void UseGetPlayers_SouldByReturnTheTwicePlayer(string inputConsole)
         {
-            var input = new StringReader(inputConsole);
+            WriteToConsole(inputConsole);
+            
             int count = int.Parse(inputConsole.Split("\n")[0]);
-            Console.SetIn(input);
+            
             List<Player> players = GameInit.getPlayers();
+            
             Assert.AreEqual(count, players.Count);
         }
     }

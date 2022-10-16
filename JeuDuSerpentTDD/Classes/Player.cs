@@ -4,11 +4,13 @@
     {
         public string Name { get; internal set; }
         public int Position { get; internal set; }
+        public int MaxPosition { get; internal set; }
 
         public Player(string Name)
         {
             if (Name == "")
-                throw new System.ArgumentException("Name cannot be empty");
+                throw new ArgumentException("Name cannot be empty");
+            
             this.Name = Name;
             this.Position = 0;
         }
@@ -16,28 +18,44 @@
         internal int Roll()
         {
             Console.WriteLine($"{this.Name} lance le dé");
-            int number = Dice.Roll();
-            handleMove(number);
-            return number;
+            int diceNumber = Dice.Roll();
+            
+            handleMove(diceNumber);
+            
+            return diceNumber;
         }
 
-        private void handleMove(int number)
+        // public for test
+        public void handleMove(int diceNumber)
         {
-            WriteMovementInfo(number);
-            ChangePosition(number);
+            int lastPosition = this.Position;
+            
+            ChangePosition(diceNumber);
+            WriteMovementInfo(lastPosition, diceNumber);
+
+            if (isMultipleOfTen())
+                Roll();
         }
 
-        private void WriteMovementInfo(int number)
+        private void WriteMovementInfo(int lastPosition,int diceNumber)
         {
-            string endSentence = (this.Position + number > 50) ? 
-                "retourne à la case 25" : 
-                $"avance vers la case {this.Position + number} ";
-            Console.WriteLine($"{this.Name} est sur la case {this.Position} et ${endSentence}");
+            if (lastPosition + diceNumber > MaxPosition)
+                Console.WriteLine($"{this.Name} était sur la case {lastPosition} et il veut avancer trop loin, il retourne à la case {this.Position}");
+            else
+                Console.WriteLine($"{this.Name} est sur la case {lastPosition} et avance vers la case {this.Position}");
+                
+            if (isMultipleOfTen())
+                Console.WriteLine($"{this.Name} est sur un multiple de 10 ({this.Position}), il rejoue");
+        }
+        
+        private bool isMultipleOfTen()
+        {
+            return Position % 10 == 0 && Position != MaxPosition;
         }
         
         private void ChangePosition(int number)
         {
-            Position = (Position + number > 50) ? 25 : Position + number;
+            Position = (Position + number > MaxPosition) ? MaxPosition/2 : Position + number;
         }
     }
 }
